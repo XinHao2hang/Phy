@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\vec">
+      <UniqueIdentifier>{3cf4857a-efd3-4494-bbc5-2dfc10ed0609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\phy2d">
+      <UniqueIdentifier>{861cedbd-8bf0-42f5-a8e8-9ee7cb7a8a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gl">
+      <UniqueIdentifier>{f7adcba2-4a13-4ee8-b402-27d4df4da65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\asciilib">
+      <UniqueIdentifier>{4b9fb12c-a3da-4642-be30-7ef851a90684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bridge">
+      <UniqueIdentifier>{67e17491-7520-402b-a4b8-c171b90e667e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithm">
+      <UniqueIdentifier>{9f9644dc-6812-4474-9ba7-fe98ecee4cd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>源文件\phy2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Collide.cpp">
+      <Filter>源文件\phy2d</Filter>
+    </ClCompile>
+    <ClCompile Include="mat.cpp">
+      <Filter>源文件\vec</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="element.cpp">
+      <Filter>源文件\bridge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vmath.hpp">
+      <Filter>源文件\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.hpp">
+      <Filter>源文件\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.hpp">
+      <Filter>源文件\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>源文件\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyAttr.h">
+      <Filter>源文件\phy2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>源文件\phy2d</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyObj.h">
+      <Filter>源文件\phy2d</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>源文件\phy2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>源文件\phy2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Collide.h">
+      <Filter>源文件\phy2d</Filter>
+    </ClInclude>
+    <ClInclude Include="mat.h">
+      <Filter>源文件\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>源文件\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="glad.h">
+      <Filter>源文件\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="element.h">
+      <Filter>源文件\bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="scoin.h">
+      <Filter>源文件\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="nmath.h">
+      <Filter>源文件\vec</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
